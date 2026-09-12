@@ -1,0 +1,88 @@
+---
+path: /contact/
+nav: contact
+nav_name: Contact
+title: Contact Us | Godiva Facilities Management | Commercial Cleaning Coventry & West Midlands
+description: Contact Godiva Facilities Management about commercial cleaning for your office or workplace in Coventry, Warwickshire or the West Midlands. Send a message or request a site survey.
+priority: 0.7
+---
+    <section class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="/">Home</a></li><li>Contact</li></ol>
+        <h1>Contact us.</h1>
+        <p class="lead">Send us a message and we’ll come back to you. If you’re looking for a price, the <a href="/get-a-quote/">quote form</a> captures the details we need to arrange a site survey.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quote-layout">
+          <aside class="quote-aside" aria-labelledby="aside-title">
+            <h2 id="aside-title">What we can help with</h2>
+            <ol>
+              <li>A quote or site survey for your premises.</li>
+              <li>Questions about how our contracts are run.</li>
+              <li>A second opinion on your current cleaning arrangement.</li>
+              <li>Anything else — partnerships, suppliers, general enquiries.</li>
+            </ol>
+          </aside>
+
+          <form class="form" data-gfm-form name="contact" data-form-name="contact" method="POST" action="https://api.web3forms.com/submit" aria-label="Contact form">
+            <input type="hidden" name="page" value="/contact/">
+            <!-- Web3Forms: submissions are emailed to the inbox the access key was created with -->
+            <input type="hidden" name="access_key" value="96e920e4-5f2a-40bb-ab32-432bdbd06d3c">
+            <input type="hidden" name="subject" value="New website enquiry — Godiva Facilities Management">
+            <input type="hidden" name="from_name" value="Godiva website">
+            <input type="hidden" name="redirect" value="https://www.godivafacilities.com/thanks/">
+            <input type="checkbox" name="botcheck" class="honeypot" style="display:none" tabindex="-1" aria-hidden="true">
+            <fieldset class="form__fieldset">
+              <legend>Send us a message</legend>
+              <div class="form__row">
+                <div class="field">
+                  <label for="c-name">Name</label>
+                  <input id="c-name" name="name" type="text" autocomplete="name" required>
+                  <span class="field__error">Please enter your name.</span>
+                </div>
+                <div class="field">
+                  <label for="c-company">Company <span class="muted">(optional)</span></label>
+                  <input id="c-company" name="company" type="text" autocomplete="organization">
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="c-email">Email</label>
+                  <input id="c-email" name="email" type="email" autocomplete="email" required>
+                  <span class="field__error">Please enter a valid email address.</span>
+                </div>
+                <div class="field">
+                  <label for="c-phone">Phone <span class="muted">(optional)</span></label>
+                  <input id="c-phone" name="phone" type="tel" autocomplete="tel">
+                </div>
+              </div>
+              <div class="field">
+                <label for="c-subject">What’s it about?</label>
+                <select id="c-subject" name="enquiry_type" required>
+                  <option value="" selected disabled>Select…</option>
+                  <option>Quote or site survey</option>
+                  <option>Question about our services</option>
+                  <option>Existing contract</option>
+                  <option>Suppliers and partnerships</option>
+                  <option>Something else</option>
+                </select>
+                <span class="field__error">Please choose a subject.</span>
+              </div>
+              <div class="field">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" required></textarea>
+                <span class="field__error">Please enter a message.</span>
+              </div>
+            </fieldset>
+            <div class="form__footer">
+              <div class="form__status" role="status" aria-live="polite"></div>
+              <button class="btn btn--primary" type="submit">Send message</button>
+              <p class="form__consent">We’ll only use these details to respond to your enquiry. See our <a href="/privacy/">privacy policy</a>.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>

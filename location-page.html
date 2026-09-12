@@ -1,0 +1,64 @@
+---
+path: /commercial-cleaning-{{slug}}/
+nav_name: Commercial Cleaning {{Location}}
+title: Commercial Cleaning {{Location}} | Office Cleaning Contracts | Godiva Facilities Management
+description: Managed commercial cleaning for offices and workplaces in {{Location}}. Written specification, named contract manager, quality control. Request a site survey.
+priority: 0.8
+---
+<!--
+  LOCATION PAGE TEMPLATE
+  ----------------------
+  1. Copy this file to src/pages/commercial-cleaning-{{slug}}.html
+  2. Replace {{Location}} (display name), {{slug}} (URL slug) and {{County}}.
+  3. Replace the LOCAL CONTEXT paragraph and the local areas list with genuine,
+     specific content for that town. If you can't write 300+ words that are
+     actually about the place and its commercial property, don't publish the
+     page — thin near-duplicate pages hurt rankings for the whole site.
+  4. Run python3 build.py. The page is picked up automatically, added to the
+     sitemap, and gets breadcrumb schema.
+-->
+    <section class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="/">Home</a></li><li><a href="/commercial-cleaning/">Commercial cleaning</a></li><li>{{Location}}</li></ol>
+        <h1>Commercial cleaning in {{Location}}.</h1>
+        <p class="lead">Managed office and workplace cleaning for businesses in {{Location}} and across {{County}}, delivered to a written specification and scheduled around your operating hours.</p>
+        <div class="btn-group mt-3">
+          <a class="btn btn--primary" href="/get-a-quote/">Get a quote</a>
+          <a class="btn btn--outline" href="/get-a-quote/">Request a site survey</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--5-7">
+          <div><span class="line" aria-hidden="true"></span><h2>Cleaning for {{Location}} workplaces.</h2></div>
+          <div class="statement__body">
+            <!-- LOCAL CONTEXT: 2–3 paragraphs specific to this town. -->
+            <p class="lead measure">{{Local context paragraph 1}}</p>
+            <p class="measure">{{Local context paragraph 2}}</p>
+            <ul class="points">
+              <li class="point"><h3>Office cleaning</h3><p>Daily or scheduled cleaning of desks, meeting rooms, kitchens and floors around your working hours.</p></li>
+              <li class="point"><h3>Communal areas</h3><p>Lobbies, stairwells, lifts and shared washrooms in multi-tenant buildings.</p></li>
+              <li class="point"><h3>Washrooms, windows and consumables</h3><p>Added under the same contract, scheduled in the same programme.</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--grey">
+      <div class="container">
+        <div class="area">
+          <div><span class="line" aria-hidden="true"></span><h2>Areas we cover around {{Location}}.</h2><p class="lead mt-2 measure">Including business parks, town-centre offices and industrial estates across the area.</p></div>
+          <ul class="area__places"><li>{{Local area 1}}</li><li>{{Local area 2}}</li><li>{{Local area 3}}</li><li>{{Local area 4}}</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <div><span class="line" aria-hidden="true"></span><h2 id="cta-title">Book a site survey in {{Location}}.</h2><p>We’ll visit, write the specification and send a price to compare against your current arrangement.</p></div>
+        <div class="cta__actions"><a class="btn btn--accent" href="/get-a-quote/">Request a site survey</a></div>
+      </div>
+    </section>

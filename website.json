@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{site_url}}/#website",
+  "url": "{{site_url}}/",
+  "name": "Godiva Facilities Management",
+  "publisher": { "@id": "{{site_url}}/#organization" },
+  "inLanguage": "en-GB"
+}

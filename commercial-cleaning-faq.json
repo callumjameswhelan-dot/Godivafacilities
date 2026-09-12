@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What does a commercial cleaning contract with Godiva include?", "acceptedAnswer": {"@type": "Answer", "text": "A written cleaning specification setting out every area, task and frequency, a schedule agreed around your operating hours, a named contract manager, planned cover for absence, and regular inspections against the specification. Washrooms, windows and consumables can be included under the same contract."}},
+    {"@type": "Question", "name": "How is the price calculated?", "acceptedAnswer": {"@type": "Answer", "text": "Pricing is based on the specification produced after a site survey: the size and layout of the premises, the tasks and frequencies required, the schedule, and any additional services. You see the specification and the price together before committing."}},
+    {"@type": "Question", "name": "Can cleaning take place outside our working hours?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Early morning, evening and overnight cleaning is common for offices and workplaces. Access arrangements and keyholding are agreed during mobilisation."}},
+    {"@type": "Question", "name": "What happens if we already have a cleaning provider?", "acceptedAnswer": {"@type": "Answer", "text": "We can survey the premises and quote against your current arrangement. If you decide to switch, we plan the changeover around your existing notice period so there is no gap in service."}},
+    {"@type": "Question", "name": "Which areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "Coventry, Warwickshire, Birmingham and the wider West Midlands. If your premises are outside this area, get in touch and we will tell you whether we can service them."}}
+  ]
+}

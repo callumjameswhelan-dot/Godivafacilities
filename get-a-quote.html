@@ -1,0 +1,182 @@
+---
+path: /get-a-quote/
+nav_name: Get a quote
+title: Get a Commercial Cleaning Quote | Godiva Facilities Management
+description: Request a commercial cleaning quote or site survey for your office or workplace in Coventry, Warwickshire or the West Midlands. Tell us about your premises and we'll arrange a conversation.
+priority: 0.9
+---
+    <section class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="/">Home</a></li><li>Get a quote</li></ol>
+        <h1>Tell us about your workplace.</h1>
+        <p class="lead">A few details are enough to start. We’ll come back to arrange a conversation or a site survey, and you’ll get a written specification and price before you commit to anything.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quote-layout">
+          <aside class="quote-aside" aria-labelledby="aside-title">
+            <h2 id="aside-title">What happens next</h2>
+            <p>Every quote is based on a site survey, so the price reflects your building rather than a guess.</p>
+            <ol>
+              <li>We reply to arrange a call or a visit at a time that suits you.</li>
+              <li>We survey the premises — usually under an hour.</li>
+              <li>You receive a cleaning specification and a price to review.</li>
+              <li>If you go ahead, we plan mobilisation around your hours and any notice period.</li>
+            </ol>
+          </aside>
+          <form class="form" data-gfm-form name="quote" data-form-name="quote" method="POST" action="https://api.web3forms.com/submit" aria-label="Quote request form">
+            <input type="hidden" name="page" value="/get-a-quote/">
+            <!-- Web3Forms: submissions are emailed to the inbox the access key was created with -->
+            <input type="hidden" name="access_key" value="96e920e4-5f2a-40bb-ab32-432bdbd06d3c">
+            <input type="hidden" name="subject" value="New quote request — Godiva Facilities Management">
+            <input type="hidden" name="from_name" value="Godiva website">
+            <input type="hidden" name="redirect" value="https://www.godivafacilities.com/thanks/">
+            <input type="checkbox" name="botcheck" class="honeypot" style="display:none" tabindex="-1" aria-hidden="true">
+
+            <fieldset class="form__fieldset">
+              <legend>Your details</legend>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-name">Name</label>
+                  <input id="q-name" name="name" type="text" autocomplete="name" required>
+                  <span class="field__error">Please enter your name.</span>
+                </div>
+                <div class="field">
+                  <label for="q-company">Company</label>
+                  <input id="q-company" name="company" type="text" autocomplete="organization" required>
+                  <span class="field__error">Please enter your company name.</span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-email">Email</label>
+                  <input id="q-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+                  <span class="field__error">Please enter a valid email address.</span>
+                </div>
+                <div class="field">
+                  <label for="q-phone">Phone</label>
+                  <input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+                  <span class="field__error">Please enter a phone number.</span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <legend>Your premises</legend>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-postcode">Postcode</label>
+                  <input id="q-postcode" name="postcode" type="text" autocomplete="postal-code" required pattern="^[A-Za-z]{1,2}\d[A-Za-z\d]?\s*\d[A-Za-z]{2}$">
+                  <span class="field__error">Please enter a valid UK postcode.</span>
+                </div>
+                <div class="field">
+                  <label for="q-type">Type of premises</label>
+                  <select id="q-type" name="premises_type" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option>Professional office</option>
+                    <option>Business park unit</option>
+                    <option>Multi-tenant building / communal areas</option>
+                    <option>Warehouse or industrial with offices</option>
+                    <option>Retail or showroom</option>
+                    <option>Education or community workplace</option>
+                    <option>Other</option>
+                  </select>
+                  <span class="field__error">Please select the type of premises.</span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-size">Approximate size</label>
+                  <select id="q-size" name="approx_size" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option>Under 2,000 sq ft (up to ~20 people)</option>
+                    <option>2,000 – 5,000 sq ft</option>
+                    <option>5,000 – 15,000 sq ft</option>
+                    <option>15,000 – 50,000 sq ft</option>
+                    <option>Over 50,000 sq ft</option>
+                    <option>Multiple sites</option>
+                    <option>Not sure</option>
+                  </select>
+                  <span class="hint">Headcount is fine if you don’t know the floor area.</span>
+                  <span class="field__error">Please select an approximate size.</span>
+                </div>
+                <div class="field">
+                  <label for="q-start">Approximate contract start date</label>
+                  <input id="q-start" name="start_date" type="month">
+                  <span class="hint">Leave blank if you’re not sure yet.</span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <legend>Cleaning requirements</legend>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-current-freq">Current cleaning frequency</label>
+                  <select id="q-current-freq" name="current_frequency">
+                    <option value="" selected disabled>Select…</option>
+                    <option>None at present</option>
+                    <option>Daily</option>
+                    <option>Several times a week</option>
+                    <option>Weekly</option>
+                    <option>Fortnightly or less</option>
+                    <option>Ad hoc</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="q-pref-freq">Preferred cleaning frequency</label>
+                  <select id="q-pref-freq" name="preferred_frequency" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option>Daily</option>
+                    <option>Several times a week</option>
+                    <option>Weekly</option>
+                    <option>Fortnightly</option>
+                    <option>One-off / deep clean</option>
+                    <option>Advise me</option>
+                  </select>
+                  <span class="field__error">Please select a preferred frequency.</span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="q-time">Preferred cleaning time</label>
+                  <select id="q-time" name="preferred_time" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option>Early morning (before opening)</option>
+                    <option>During working hours</option>
+                    <option>Evening (after closing)</option>
+                    <option>Overnight</option>
+                    <option>Flexible / advise me</option>
+                  </select>
+                  <span class="field__error">Please select a preferred time.</span>
+                </div>
+                <div class="field">
+                  <span id="q-provider-label" style="font-size:var(--fs-sm);font-weight:500;color:var(--navy)">Do you have a current cleaning provider?</span>
+                  <div class="radio-group" role="radiogroup" aria-labelledby="q-provider-label" style="margin-top:0.35rem">
+                    <label><input type="radio" name="current_provider" value="Yes" required> Yes</label>
+                    <label><input type="radio" name="current_provider" value="No"> No</label>
+                  </div>
+                  <span class="field__error">Please let us know if you have a current provider.</span>
+                </div>
+              </div>
+              <div class="field" id="field-current-provider-detail" hidden>
+                <label for="q-provider-detail">Anything we should know about the current arrangement? <span class="muted">(optional)</span></label>
+                <input id="q-provider-detail" name="current_provider_detail" type="text" placeholder="e.g. contract ends in March, standards have slipped">
+              </div>
+              <div class="field">
+                <label for="q-info">Additional information <span class="muted">(optional)</span></label>
+                <textarea id="q-info" name="additional_info" placeholder="Number of washrooms, kitchens, floors, any specific requirements, access arrangements…"></textarea>
+              </div>
+            </fieldset>
+
+            <div class="form__footer">
+              <div class="form__status" role="status" aria-live="polite"></div>
+              <button class="btn btn--primary" type="submit">Request my quote</button>
+              <p class="form__consent">We’ll only use these details to respond to your enquiry. See our <a href="/privacy/">privacy policy</a>.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>

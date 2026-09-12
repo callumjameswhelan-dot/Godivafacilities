@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Commercial cleaning services",
+  "itemListElement": [
+    {"@type": "Service", "position": 1, "name": "Office Cleaning", "serviceType": "Office cleaning", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#office-cleaning"},
+    {"@type": "Service", "position": 2, "name": "Workplace Cleaning", "serviceType": "Workplace cleaning", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#workplace-cleaning"},
+    {"@type": "Service", "position": 3, "name": "Communal Area Cleaning", "serviceType": "Communal area cleaning", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#communal-area-cleaning"},
+    {"@type": "Service", "position": 4, "name": "Commercial Deep Cleaning", "serviceType": "Commercial deep cleaning", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#commercial-deep-cleaning"},
+    {"@type": "Service", "position": 5, "name": "Washroom Services", "serviceType": "Washroom services", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#washroom-services"},
+    {"@type": "Service", "position": 6, "name": "Window Cleaning", "serviceType": "Commercial window cleaning", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#window-cleaning"},
+    {"@type": "Service", "position": 7, "name": "Cleaning Consumables", "serviceType": "Cleaning consumables supply", "provider": {"@id": "{{site_url}}/#organization"}, "areaServed": "West Midlands", "url": "{{site_url}}/services/#cleaning-consumables"}
+  ]
+}
